@@ -42,6 +42,8 @@ Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 ## Live Lab
 ### Phase 1: Statistical Inference Sim
 
+Deets to come.
+
 ### Project Architecture
 
 ```mermaid
