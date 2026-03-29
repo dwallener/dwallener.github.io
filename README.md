@@ -44,6 +44,62 @@ Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 
 ### Project Architecture
 
+graph TD
+    %% Define Nodes and Styles
+    classDef hardware fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef software fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+    classDef logical fill:#fff3e0,stroke:#e65100,stroke-width:2px,stroke-dasharray: 5 5;
+    classDef output fill:#fce4ec,stroke:#880e4f,stroke-width:2px;
+
+    %% --- PHYSICAL LAYER (Per Node) ---
+    subgraph "Hardware Layer (Per Node)"
+        Lens[2cm Defocused Optics]:::hardware
+        Sensor[1kHz Photometric Sensor]:::hardware
+        Clock[GNSS-Disciplined Oscillator <1ms Sync]:::hardware
+    end
+
+    Lens -->|PSF Photons| Sensor
+    Sensor -->|Raw 1kHz Stream| NodeInference
+
+    %% --- INFERENCE LAYER (Per Node "Thin Brain") ---
+    subgraph NodeInference ["Inference Layer (Per Node 'Thin Brain')"]
+        direction TB
+        Catalog[Bright Star Watchlist (Top 500)]:::logical
+        NoiseFilter[Statistical Anomaly Detector (Change Detection)]:::software
+        EventLogger[Candidate Event Logger (Timestamp + Star ID)]:::software
+        
+        Catalog -.-> NoiseFilter
+        NoiseFilter -->|Sub-Noise Transient| EventLogger
+        Clock -.-> EventLogger
+    end
+
+    %% --- MESH & VALIDATION LAYER ---
+    subgraph MeshValidation ["Mesh & Validation Layer (Consensus)"]
+        direction TB
+        MeshComms[Mesh Communication Layer]:::software
+        CausalVeto[Causal Spatiotemporal Veto (Hypothesis Testing)]:::software
+        TrajRecon[Trajectory Reconstruction Engine]:::software
+        
+        MeshComms -->|Time-Aligned Events| CausalVeto
+        CausalVeto -->|Vetted Sequence| TrajRecon
+    end
+
+    EventLogger -->|Candidate Event (UDP/CoT)| MeshComms
+
+    %% --- OUTPUT LAYER ---
+    subgraph OutputLayer ["Output Layer"]
+        direction TB
+        SAPIENT[SAPIENT/CoT Formatter]:::software
+        API[Target Vector API]:::output
+    end
+
+    TrajRecon -->|Validated Path| SAPIENT
+    SAPIENT --> API
+
+    %% --- NOTES (Optional but Helpful for Pitch) ---
+    %% Note1[Note: Individual Nodes log 'Candidate Events' that are below single-node detection thresholds]
+    %% Note2[Note: Causal Veto validates the 'tripwire' sequence matches orbital physics]
+
 
 Demo video:
 <tbd>
