@@ -2,7 +2,7 @@
 
 Project Argus (Attritable Reconnaissance & Global Under-star Surveillance): 
 Distributed Causal Inference for Cislunar Custody.
-Repo (private): <tbd>
+Repo (private): https://github.com/dwallener/argus
 
 ## Executive Summary: Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance)
 
