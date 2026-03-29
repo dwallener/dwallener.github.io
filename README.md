@@ -1,8 +1,9 @@
 # dwallener.github.io
-My landing page. 
 
-Ok....I need to think through this...
+Project Argus (Attritable Reconnaissance & Global Under-star Surveillance): 
 
-Argus:
+Distributed Causal Inference for Cislunar Custody.
+
+
 
 Repo (private):
