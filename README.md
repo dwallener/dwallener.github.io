@@ -44,6 +44,7 @@ Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 
 ### Project Architecture
 
+```mermaid
 graph TD
     %% Define Nodes and Styles
     classDef hardware fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -99,7 +100,7 @@ graph TD
     %% --- NOTES (Optional but Helpful for Pitch) ---
     %% Note1[Note: Individual Nodes log 'Candidate Events' that are below single-node detection thresholds]
     %% Note2[Note: Causal Veto validates the 'tripwire' sequence matches orbital physics]
-
+```
 
 Demo video:
 <tbd>
