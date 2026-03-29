@@ -1,11 +1,11 @@
 # dwallener.github.io
 
-Project Argus (Attritable Reconnaissance & Global Under-star Surveillance): 
+## Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance): 
 Distributed Causal Inference for Cislunar Custody.
 
 Repo (private): https://github.com/dwallener/argus
 
-## Executive Summary: Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance)
+## Executive Summary
 
 ### The Mission
 To eliminate the "Cislunar Gap" by deploying a high-density, low-cost Distributed Tripwire network. We provide persistent anomaly detection and track refinement in deep space and contested terrestrial borders where traditional IR and Radar are economically or physically blinded.
