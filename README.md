@@ -10,6 +10,8 @@ Repo (private): https://github.com/dwallener/argus
 ### The Mission
 To eliminate the "Cislunar Gap" by deploying a high-density, low-cost Distributed Tripwire network. We provide persistent anomaly detection and track refinement in deep space and contested terrestrial borders where traditional IR and Radar are economically or physically blinded.
 
+Veto does **not** require high per-node SNR. We utilize high-speed (1 kHz) photometry to extract sub-noise transients, validated via a causal spatiotemporal veto across a shared stellar coordinate system.
+
 ### The Problem: The "Exquisite" Failure
 Current Space Situational Awareness (SSA) relies on "Exquisite" sensors—billion-dollar telescopes and high-power radars. These systems are:
 
@@ -36,6 +38,12 @@ Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 - Logic: 4-module "Thin Brain" ontology (Saliency/Novelty) is built and sim-proven.
 - Validation: Currently prepping for a DevX/AAL field demo in 6 weeks to prove terrestrial "Drone vs. Dog" gating.
 - Target: Seeking Techstars/Canopy acceleration to harden the "Star-Blink" mesh for orbital test deployment by Q4 2026.
+
+## Live Lab
+### Phase 1: Statistical Inference Sim
+
+### Project Architecture
+
 
 Demo video:
 <tbd>
