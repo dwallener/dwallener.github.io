@@ -35,3 +35,9 @@ Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 - Logic: 4-module "Thin Brain" ontology (Saliency/Novelty) is built and sim-proven.
 - Validation: Currently prepping for a DevX/AAL field demo in 6 weeks to prove terrestrial "Drone vs. Dog" gating.
 - Target: Seeking Techstars/Canopy acceleration to harden the "Star-Blink" mesh for orbital test deployment by Q4 2026.
+
+Demo video:
+<tbd>
+
+Field Testing: June 2026
+Hardware Sprint: In progress
