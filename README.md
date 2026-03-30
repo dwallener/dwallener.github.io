@@ -7,6 +7,8 @@ Fun stuff:
 - BlueSky PoC for AI filtering of the firehose: https://github.com/dwallener/DeTwit
 - Palantir/Maven clone (not just UI...all the plumbing): https://github.com/dwallener/daven 
 
+Most of the work for optimizing LLM size using operator+state approach is in private repos, including the Anduril drone autonomy and DARPA liquidity/money-laundering monitoring applications. Feel free to reach out to discuss deeper work.
+
 ## Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance): 
 Distributed Causal Inference for Cislunar Custody.
 
