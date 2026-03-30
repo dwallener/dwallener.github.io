@@ -1,5 +1,10 @@
 # dwallener.github.io
 Repos: https://github.com/dwallener?tab=repositories
+Fun stuff:
+- SNES Disassembler and ROM constructor: https://github.com/dwallener/snes-rom-hack/
+- Ancient Text Translator: https://github.com/dwallener/MyTranslations
+- BlueSky PoC for AI filtering of the firehose: https://github.com/dwallener/DeTwit
+- Palantir/Maven clone (not just UI...all the plumbing): https://github.com/dwallener/daven 
 
 ## Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance): 
 Distributed Causal Inference for Cislunar Custody.
