@@ -26,6 +26,8 @@ We have developed a "Thin Brain" architecture that treats the universal starscap
 - The Detection: We don't "see" the object; we detect sub-percent photometric perturbations as targets transit the Point Spread Function (PSF) of a known star.
 - The Innovation (Causal Validation): Rather than signal-averaging, we employ Spatiotemporal Inference. A single-node "dip" is treated as a candidate event; we only promote it to a "Track" when it is validated by sequential, time-coherent triggers across the distributed mesh that match orbital mechanics.
 
+<img width="1537" height="2515" alt="Demo-Screencap" src="https://github.com/user-attachments/assets/91ea4799-f14a-49ba-a2dc-e68c39d20334" />
+
 ### The Moat: Statistical Mass & Causal Filtering
 Our competitive advantage is not a better lens, but a Deterministic Logic Layer:
 
