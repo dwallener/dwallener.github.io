@@ -1,15 +1,37 @@
 # dwallener.github.io
 Repos: https://github.com/dwallener?tab=repositories
 
-Fun stuff:
+Basically, my thing is bridging the chasm between connectomes and network implementations we can build with "normal" math on "normal" hardware. I believe there is a way to leverage the locally-dense sparsity of neural spiking networks to create models that are much more efficient in energy usage and training. 
+
+Parcellization of the human brain:
+
+https://streamable.com/r2mo8v
+
+Block by block mapping of the fly connectome to a parcellized fly "brain":
+
+<img width="1001" height="1215" alt="Screenshot 2026-09-14 at 9 36 50 AM" src="https://github.com/user-attachments/assets/9889934e-8507-4a5a-9ac8-44a592a12e21" />
+
+## Fun stuff:
+
 - SNES Disassembler and ROM constructor: https://github.com/dwallener/snes-rom-hack/
+
+This has been put to pasture...we're awfully close to frontier models being able to few-shot this now
+
 - Ancient Text Translator: https://github.com/dwallener/MyTranslations
-- BlueSky PoC for AI filtering of the firehose: https://github.com/dwallener/DeTwit
-- Palantir/Maven clone (not just UI...all the plumbing): https://github.com/dwallener/daven 
+
+I am super particular about text translation. So particular I am dissatisfied by nearly all of them. Exceptions would be Everett Fox ("Five Books of Moses"), Wilson ("Odyssey"), Waterfield ("Meditations"). So I built my own system for creating the style I want to read - concise, no decorations, coneptually consistent with vocalizations. Currently I am working on a basic collection from Chinese antiquity, because this is a huge hole in the body of work.
+
+
+## Geospatial x Mobility Analysis
+
+Production system (in commercial deployment) for location x demographic message targeting. Also incorporates automatic generation of highly localized "newspapers" to understand what is important in any given community at the time. Combined, it allows for rapid theme discovery, message formulation, and delivery for commercial, civic and political entities.
+
+<img width="1988" height="2353" alt="Screenshot 2026-09-21 at 11 26 25 AM" src="https://github.com/user-attachments/assets/6ac7d69a-cbb6-4347-87ee-8b353168d1af" />
 
 Most of the work for optimizing LLM size using operator+state approach is in private repos, including the Anduril drone autonomy and DARPA liquidity/money-laundering monitoring applications. Feel free to reach out to discuss deeper work.
 
 ## Project ARGUS (Attritable Reconnaissance & Global Under-star Surveillance): 
+
 Distributed Causal Inference for Cislunar Custody.
 
 Repo (private): https://github.com/dwallener/argus
