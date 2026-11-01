@@ -13,3 +13,7 @@ No build step or third-party scripts. Preview with `python3 -m http.server 8766`
 
 The circuit repository remains private. The site contains a public-facing status
 summary and a conceptual illustration, not device netlists or fabrication files.
+
+## Project illustrations
+
+The circuit page includes actual saved P&R viewer renders of the State, Sector, lateral System, and tower System. Layer separation is illustrative; the images are not fabrication photographs. The fly-compass SVG is an explanatory activity diagram, with the biological reference linked on the page. Source netlists and routing datasets remain in the private circuit repository.
