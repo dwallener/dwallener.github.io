@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 470" role="img" aria-labelledby="title desc">
+<title id="title">One layer contains a complete printed transistor stack</title><desc id="desc">Cross-section of a proposed top-gate thin-film transistor. A Kapton substrate supports source and drain contacts, a semiconductor channel, an insulating gate dielectric and a gate conductor. All of these films together with the substrate count as one layer.</desc>
+<rect width="1060" height="470" rx="8" fill="#142a34"/>
+<g font-family="Arial,sans-serif" fill="#e1edf1">
+<text x="36" y="40" font-size="19" font-weight="bold">ONE DEVICE-BEARING LAYER</text><text x="36" y="66" font-size="14" fill="#b4c8cb">Illustrative transistor cross-section · thicknesses exaggerated</text>
+<rect x="90" y="316" width="490" height="64" fill="#b58039"/>
+<rect x="160" y="284" width="125" height="32" fill="#46b7ad"/><rect x="385" y="284" width="125" height="32" fill="#46b7ad"/>
+<path d="M160 269 H510 V284 H385 V316 H285 V284 H160Z" fill="#86bf78"/>
+<rect x="140" y="230" width="390" height="39" fill="#a4c7df"/>
+<rect x="265" y="200" width="140" height="30" fill="#638fdf"/>
+<g stroke="#b4c8cb" stroke-width="1.5" fill="none"><path d="M405 214 H630"/><path d="M530 248 H630"/><path d="M510 276 H610 V294 H630"/><path d="M510 305 H595 V338 H630"/><path d="M580 365 H610 V390 H630"/></g>
+<g font-size="17"><text x="645" y="218">4 · Gate conductor (G)</text><text x="645" y="252">3 · Gate dielectric (DI): insulation</text><text x="645" y="298">2 · Semiconductor (SC): active channel</text><text x="645" y="342">1 · Source / drain contacts (SD)</text><text x="645" y="394">Kapton substrate</text></g>
+<text x="222" y="305" text-anchor="middle" font-size="14" fill="#10252d">Source</text><text x="448" y="305" text-anchor="middle" font-size="14" fill="#10252d">Drain</text>
+<path d="M320 290 H350 m-6 -5 6 5 -6 5" fill="none" stroke="#142a34" stroke-width="2"/>
+<text x="335" y="151" text-anchor="middle" font-size="16">Gate voltage controls current</text><text x="335" y="174" text-anchor="middle" font-size="16">through the semiconductor channel</text>
+<path d="M73 200 H58 V380 H73" stroke="#e2b56b" stroke-width="3" fill="none"/>
+<text x="530" y="440" text-anchor="middle" font-size="18" font-weight="bold" fill="#e2b56b">Kapton + all four patterned films = ONE layer</text>
+</g></svg>
